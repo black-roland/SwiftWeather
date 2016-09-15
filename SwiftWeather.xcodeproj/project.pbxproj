@@ -32,7 +32,6 @@
 		CAB565DDADB61DF9053BD50F /* WeatherServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB56A3D23F4A93BB599E4BA /* WeatherServiceProtocol.swift */; };
 		CAB56F4267B3BC487990A92D /* OpenWeatherMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB56D46471CA243B1FD646F /* OpenWeatherMapService.swift */; };
 		EADFFD301CAEA22F008357FF /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADFFD2F1CAEA22F008357FF /* TemperatureConverter.swift */; };
-		F3897F7C1C118C4F001609E2 /* ForecastDateTimeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3897F7B1C118C4F001609E2 /* ForecastDateTimeSpec.swift */; };
 		F3897F7E1C118C6E001609E2 /* WeatherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3897F7D1C118C6E001609E2 /* WeatherSpec.swift */; };
 		F3897F801C118D7D001609E2 /* ForecastSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3897F7F1C118D7D001609E2 /* ForecastSpec.swift */; };
 		F3897F821C118F0A001609E2 /* TemperatureSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3897F811C118F0A001609E2 /* TemperatureSpec.swift */; };
@@ -93,7 +92,6 @@
 		CAB56D46471CA243B1FD646F /* OpenWeatherMapService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapService.swift; sourceTree = "<group>"; };
 		E835C39D4B929F35B6A57B12 /* Pods-SwiftWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWeather/Pods-SwiftWeather.release.xcconfig"; sourceTree = "<group>"; };
 		EADFFD2F1CAEA22F008357FF /* TemperatureConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
-		F3897F7B1C118C4F001609E2 /* ForecastDateTimeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDateTimeSpec.swift; sourceTree = "<group>"; };
 		F3897F7D1C118C6E001609E2 /* WeatherSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherSpec.swift; sourceTree = "<group>"; };
 		F3897F7F1C118D7D001609E2 /* ForecastSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastSpec.swift; sourceTree = "<group>"; };
 		F3897F811C118F0A001609E2 /* TemperatureSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureSpec.swift; sourceTree = "<group>"; };
@@ -285,7 +283,6 @@
 		F3897F7A1C118C4F001609E2 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				F3897F7B1C118C4F001609E2 /* ForecastDateTimeSpec.swift */,
 				F3897F7D1C118C6E001609E2 /* WeatherSpec.swift */,
 				F3897F7F1C118D7D001609E2 /* ForecastSpec.swift */,
 				F3897F811C118F0A001609E2 /* TemperatureSpec.swift */,
@@ -565,7 +562,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3897F7C1C118C4F001609E2 /* ForecastDateTimeSpec.swift in Sources */,
 				F3897F821C118F0A001609E2 /* TemperatureSpec.swift in Sources */,
 				F3897F7E1C118C6E001609E2 /* WeatherSpec.swift in Sources */,
 				F3FADA1B1C1327CB006D8551 /* WeatherBuilderSpec.swift in Sources */,
